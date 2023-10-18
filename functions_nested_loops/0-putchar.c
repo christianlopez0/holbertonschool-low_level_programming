@@ -13,10 +13,10 @@ int main(void)
 		int i;
 	c = "_putchar";
 
-for (i = 0; i< 9; i++)
+for (i = 0; i < 9; i++)
 {
 	_putchar (c[i]);
 }
 _putchar('\n');
-return(0);
+return (0);
 }
