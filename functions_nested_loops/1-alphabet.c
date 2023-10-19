@@ -3,7 +3,7 @@
  * main - prints the string "alphabet in lowercase"
  * Return: 0 on success.
  */
-	int main (void) 
+	void print_alphabet(void) 
 {
 
 	char c;
@@ -11,7 +11,7 @@
 		for (c='a'; c<='z';c++)
 {
 
-	_putchar (c);
+  _putchar (c);
 
 	}
 
