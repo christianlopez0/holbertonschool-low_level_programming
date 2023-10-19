@@ -6,16 +6,16 @@
 	int main (void) 
 {
 
-	char alphabet ='a'
+	char c;
 
-		;while (alphabet<= 'z')
+		for (c='a'; c<='z';c++)
 {
 
-	_putchar(alphabet);
+	_putchar (c);
 
-	alphabet++;
 	}
 
-_putchar('\n');
+	_putchar ('\n');
+
 return (0);
 }
