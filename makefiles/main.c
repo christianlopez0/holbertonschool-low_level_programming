@@ -1,6 +1,12 @@
-#include <stdio.h>
-int main()
+#include "m.h"
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 
+ */
+int main(void)
 {
-	printf("hello world");
-		return 0;
+	print_school();
+	return (EXIT_SUCCESS);
 }
